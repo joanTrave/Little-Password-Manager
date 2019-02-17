@@ -9,6 +9,7 @@ public class LittlePasswordManager {
     private JButton logginButton;
 
     public static void main(String[] args) {
+        System.out.println("Loggin Loaded");
         JFrame frame = new JFrame("LittlePasswordManager");
         frame.setContentPane(new LittlePasswordManager().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
